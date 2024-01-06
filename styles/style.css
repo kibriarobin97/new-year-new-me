@@ -32,7 +32,8 @@ body {
     font-size: 65px;
     font-weight: 700;
 }
-.header-description{
+
+.header-description {
     color: #444343;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -40,75 +41,87 @@ body {
 
 /* main section styles */
 
-.failures-section{
+.failures-section {
     display: flex;
     gap: 80px;
     margin: 0 100px 130px 100px;
     align-items: center;
 }
-.failures-title{
+
+.failures-title {
     font-size: 40px;
     font-weight: 700;
     color: #151414;
 }
-.failures-info li{
+
+.failures-info li {
     color: #444343;
     list-style: none;
     margin-bottom: 8px;
 }
-.failures-info li i{
+
+.failures-info li i {
     color: #16D887;
     margin-right: 5px;
 }
 
 /* my plan styles */
 
-.plans{
+.plans {
     width: 80%;
     margin: 130px auto;
 }
-#plan-title{
+
+#plan-title {
     margin-bottom: 50px;
 }
-.plans > h3{
+
+.plans>h3 {
     text-align: center;
 }
-.plan-info{
+
+.plan-info {
     display: flex;
     gap: 80px;
     justify-content: space-between;
     align-items: center;
 }
-.plan-info h4{
+
+.plan-info h4 {
     color: #151414;
     font-size: 25px;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 15px;
 }
-.plan-info p{
+
+.plan-info p {
     color: #737272;
     font-size: 20px;
     font-weight: 500;
 }
-.mindset-section{
-    background-image:  url('../images/gradient2.png'), url('../images/watch.png');
+
+.mindset-section {
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
     background-repeat: no-repeat;
     background-position: top left;
     width: 80%;
     margin: 0 auto;
-   border-radius: 10px;
+    border-radius: 10px;
 }
-.mindset{
+
+.mindset {
     padding: 60px;
 }
-.mindset-title{
+
+.mindset-title {
     font-size: 40px;
     font-weight: 700;
     color: #FFFFFF;
     margin-bottom: 24px;
 }
-.btn-secondary{
+
+.btn-secondary {
     color: #F15B22;
     background-color: #FFFFFF;
     padding: 20px 30px;
@@ -119,3 +132,54 @@ body {
 }
 
 /* footer section styles */
+footer {
+    background-color: #151414;
+    margin-top: 130px;
+}
+
+.footer-section {
+    display: flex;
+    gap: 300px;
+    width: 80%;
+    position: static;
+    align-items: center;
+}
+
+.footer-info {
+    padding: 130px 100px 200px 130px;
+}
+
+.footer-info h4 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-info p {
+    color: #FFFFFF;
+}
+.social-links{
+    margin-top: 30px;
+}
+.social-links a{
+    margin-right: 20px;
+}
+
+.footer-sub h4 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-sub input{
+    color: #F3F3F3;
+    background-color: #151414;
+    padding: 20px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.crights{
+    color: white;
+    margin-left: 550px;
+}
